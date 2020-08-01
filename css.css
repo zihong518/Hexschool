@@ -1,0 +1,184 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    font-family: "微軟正黑體";
+}
+.container{
+    width: 1200px;
+    margin:30px auto;
+}
+h1{
+    font-size: 80px;
+    border-bottom: solid;
+    padding-bottom: 30px;
+}
+.photo{
+    margin: 40px 0;
+    width:324px
+}
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    line-height: 48px;
+    border-bottom: solid;
+}
+h2 span{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29px;
+    color: #A00404;
+    
+}
+.profile .education{
+    margin:20px 0 50px 0 ;
+}
+.profile p{
+    font-size: 24px;
+    line-height: 36px;
+    margin:20px 0 ;
+}
+.education ul{
+    margin-top: 20px;
+}
+.education li{
+    font-size: 24px;
+    line-height: 36px;
+   
+}
+.skill{
+    background-color: #415165;
+    padding-bottom: 1px;
+    margin-bottom:50px;
+}
+.skill h2{
+    text-align: center;
+    font-size: 32px;
+    line-height: 45px;
+    color: white;
+    border-bottom: solid;
+    padding: 10px;
+    margin: 30px ;
+}
+.skill span{
+    text-align: center;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+
+}
+.skill ul{
+    margin:25px 0 25px 40%;
+    border-left: solid white;
+    
+}
+.skill li{
+    font-size: 20px;
+    color: white;
+    line-height: 36px;
+    padding-left: 30px;
+}
+.work{
+    margin:20px 0 50px 0 ;
+    padding: 0 20px;
+    border-left: solid black;
+}
+.work li{
+    font-size: 24px;
+    line-height: 60px;
+    font-weight: bold;
+
+}
+.work img{
+    margin:10px 0;
+}
+.work p{
+    font-size: 24px;
+    line-height: 36px;
+    margin:0 0 20px 0;
+}
+.footer{
+    background-color:#415165;
+}
+.footer h2{
+    text-align: center;
+    font-size: 32px;
+    line-height: 45px;
+    font-weight: bold;
+    color: white;
+    border-bottom: solid;
+    padding: 20px;
+    margin:30px 300px ;
+}
+.footer span{
+    text-align: center;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: bold;
+    color: white;
+
+}
+.footer li{
+    font-size: 20px;
+    color: white;
+    line-height: 36px;
+    padding-left: 20px;
+}
+.middle{
+    text-align: center;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.outer{
+    text-align: center;
+    margin: 30px auto 0 auto;
+    padding-bottom: 50px;;
+}
+.footer img{
+   margin:0 10px;
+}
+
