@@ -350,7 +350,7 @@ input::placeholder{
 }
 
 
-@media (max-width: 500px){
+@media (max-width: 375px){
     .header{
         display: flex;
         margin: 30px 24px;
