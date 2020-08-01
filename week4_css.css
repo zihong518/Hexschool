@@ -358,9 +358,6 @@ input::placeholder{
 
 
 @media (max-width: 768px){
-    .container{
-        width: 90%;
-    }
     .header{
         display: flex;
         margin: 30px 24px;
