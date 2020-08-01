@@ -239,17 +239,21 @@ button {
     justify-content: space-between;
     width: 100%;
 }
+.footer_form div{
+    margin: 30px;
+}
+.footer_name{
+    display: flex;
 
+}
 .footer_form img{
     width: 40px;
-    margin:38px0;
 }
 .footer_form p{
     font-size: 24px;
-    line-height: 116px;
-    padding-right: 350px;
+    margin:auto 0 auto 20px;
     color: #EAF0ED;
-    display: inline;
+    display: inline-block;
 }
 .text{
     width: 316px;
@@ -288,7 +292,7 @@ input::placeholder{
 .info{
     width: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     flex-wrap: wrap;
     flex-direction: column;
     background-color: #EAF0ED;
@@ -339,7 +343,6 @@ input::placeholder{
 .footer2{
     display: flex;
     justify-content:space-between;
-    align-items: flex-end;
     margin:30px 0;
 }
 .copyright{
@@ -398,10 +401,7 @@ input::placeholder{
         flex-wrap: wrap;
         padding: 30px 0 0 0;
     }
-    .footer_form p {
-        padding: 0 0 0 30px;
-        line-height: 40px;
-    }
+   
     .form{
         display: flex;
         justify-content: center;
