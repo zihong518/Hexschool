@@ -230,6 +230,7 @@ button {
 .footer{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 .footer_form{
     background-color: #3F5D45;
@@ -246,12 +247,12 @@ button {
 .footer_form p{
     font-size: 24px;
     line-height: 116px;
-    padding-right: 110px;
+    padding-right: 350px;
     color: #EAF0ED;
     display: inline;
 }
 .text{
-    width: 251px;
+    width: 316px;
     height: 56px;
     background-color: #EAF0ED;
     border: none;
@@ -271,7 +272,7 @@ input::placeholder{
 .form{
     display: flex;
     justify-content: center;
-    margin: 30px;
+    margin: 30px 0;
 }
 .submit{
     background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/arrow_forward-24px.png");
@@ -398,7 +399,7 @@ input::placeholder{
         padding: 30px 0 0 0;
     }
     .footer_form p {
-        padding: 0 0 0 15px;
+        padding: 0 0 0 30px;
         line-height: 40px;
     }
     .form{
