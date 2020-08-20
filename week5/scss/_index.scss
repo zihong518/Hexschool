@@ -1,0 +1,163 @@
+.banner img{
+    min-width: 100%;
+}
+
+.main{
+    margin: 60px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .menu{
+        width:30%;
+        a{
+            font-size: 24px;
+            font-weight: bold;
+            width: 100%;
+            text-align: center;
+            display: block;
+            padding: 15px 0;
+            border:#EAF0ED solid 1px;
+            color: #3F5D45;
+        }
+        a:hover{
+            background-color: #EAF0ED;
+            color: #3F5D45;
+        }
+        @include pad(){
+            width: 100%;
+        }
+    }
+    .list{
+        width: 66%;
+        .item{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        @include pad(){
+            width: 100%;
+            margin-top:30px ;
+            .item{
+                justify-content: center;
+                width: 100%;
+                        
+                }
+            }
+        }
+    .category{
+        background-color: #3F5D45;
+        color: white;
+        font-size: 24px;
+        line-height: 33px;
+        padding: 16px 0;
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+        border: solid 1px #3F5D45;
+        
+    }
+    @include pad{
+        margin:0px;
+    }
+}
+
+.product{
+    position: relative;
+    margin-bottom: 20px;
+    &_info{
+        display: flex;
+    }
+    &_name{
+        text-align: center;
+        line-height: 56px;
+        width: 171px;
+        font-size: 20px;
+        color: #3F5D45;
+        border: solid 1px #EAF0ED;
+    }
+    &_price{
+        text-align: center;
+        line-height: 56px;
+        width: 125px;
+        font-weight: bolder;
+        font-size: 20px;
+        color: #3F5D45;
+        border: solid 1px #EAF0ED;
+    }
+    .cart {
+        width: 300px;
+        line-height: 65px;
+        padding: 0;
+        text-align: center;
+        background-color: #EAF0ED;
+        font-weight: bolder;
+        color: #3F5D45;
+        font-size: 24px;
+        border: none;
+        outline:none;
+        font-family: unset;
+        
+    }
+    .cart:hover{
+        background-color: #3F5D45; /* Green */
+        color: #EAF0ED;
+        border: none ;
+        cursor: pointer;
+    }
+    .label{
+        position: absolute;
+        writing-mode: vertical-lr;
+        left: 20px;
+        background: #3F5D45;
+        color: #fff;
+        padding: 11px 0;
+        font-size: 16px;
+        letter-spacing:5px;
+        line-height:36px;
+        text-align: center;
+    }
+    .love{
+        position: absolute;
+        right: 20px;
+        top: 20px
+    }
+    .love img:hover{
+        background-image: url(https://imagizer.imageshack.com/img924/3998/ywcZU9.png);
+    }
+    @include pad(){
+        margin: 10px 5px;
+    }
+}
+
+.page{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 42px;
+    margin-bottom: 20px;
+    div{
+        text-align: center;
+        width: 60px;
+        line-height:60px;
+        background-color: white;
+        border: solid #EAF0ED 1px;
+        font-size: 20px;
+        color: #3F5D45;
+        outline:none;
+    }
+    div:hover{
+        background-color: #3F5D45; /* Green */
+        color: #EAF0ED;
+        border: none ;
+        cursor: pointer;
+    }
+    .page_img:hover{
+        background-color: $green_light; /* Green */
+        border: none ;
+        cursor: pointer;
+    }
+    @include pad{
+        justify-content: center;
+        margin-right: 0px;
+    }
+    
+}

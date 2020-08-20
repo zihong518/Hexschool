@@ -407,7 +407,7 @@ input::placeholder{
         display: none;
     }
     .info{
-        padding:0 30px ;
+        padding:0 0px ;
     }
     .footer_main img{
         margin-bottom: 0px;

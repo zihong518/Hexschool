@@ -1,0 +1,201 @@
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    @include pad{
+        max-width: 600px;
+    }
+}
+.header{
+    display: flex;
+    margin: 30px 42px;
+    justify-content: space-between;
+    align-self: center;
+    ul{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        align-self: center;
+    }
+
+    .hamburger{
+        display: none;
+        @include pad(){
+            display: inline;
+        }
+    }
+    .link{
+        font-weight: bolder;
+        line-height: 24px;
+        font-size: 16px;
+        color: $green_dark;
+        display: block;
+        padding:0 30px;
+        @include pad(){
+            display: none;
+        }
+    }
+    .link:hover{
+        background-color: $green_light;
+    }
+    .cart_img{
+        margin-left: 30px;
+        @include pad(){
+            margin: 0px;
+        }
+    }
+    .logo{
+        width: 300px;
+        @include pad(){
+            width: 115px;
+        }
+    }
+}
+
+
+
+
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    max-width:1024px;
+    margin: 0 auto;
+    &_form{
+        background-color:$green_dark;
+        display: flex;
+        padding: 0 122px;
+        justify-content: space-between;
+        width: 100%;
+        img{
+            width: 40px;
+        }
+        p{
+            font-size: 24px;
+            margin:auto 0 auto 20px;
+            color: #EAF0ED;
+            display: inline-block;
+        }
+        @include pad(){
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 30px 0 0 0;
+        }
+    }
+    &_name{
+        display: flex;
+    }
+    &_main{
+        display: flex;
+        justify-content: space-between;
+        img{
+            width: 171px;
+            margin: 40px 0px;
+            @include pad(){
+                margin-bottom: 0px;
+            }
+        }
+
+        
+    }
+    &_else{
+        display: flex;
+        justify-content:space-between;
+        margin:30px 0;
+        @include pad(){
+            flex-direction: column;
+            justify-content: flex-start;
+            margin:0px;
+        }
+        
+    }
+    .text{
+        width: 316px;
+        height: 56px;
+        background-color: $green_light;
+        border: none;
+        padding: 0;
+        margin: 0px;
+        outline: none;
+    }
+    input::placeholder{
+        background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/mail-24px.png");
+        font-size: 24px;
+        background-repeat: no-repeat;
+        background-position: 20px 3px;
+        text-indent: 101%;
+        white-space: nowrap;
+        background-size: contain;
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+        margin: 30px 0;
+    }
+    .submit{
+        background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/arrow_forward-24px.png");
+        background-repeat: no-repeat;
+        background-position:center;
+        background-color: #FFE180;
+        outline: none;
+        width: 56px;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+    }
+    &_info{
+        width: 100%;
+        background-color: $green_light;
+        padding: 0 122px;
+        @include pad(){
+            padding:0 30px ;
+        }
+    }
+    .copyright{
+        text-align: right;
+        padding-top: 16px;
+        font: 16px;
+        color: $green_dark;
+        @include pad(){
+            text-align: left;
+        }
+    }
+    
+    .social_media {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap ;
+        img{
+            width: 32px;
+            margin:0px 8px 0px 0px;
+        }
+    }
+    .contact{
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+        color: $green_dark;
+        font-weight: bold;
+        margin-top: 80px;
+        @include pad(){
+            margin:30px 0px;
+        }
+    }
+    .slogen{
+        p{
+            padding-top: 20px;
+            font-size: 23px;
+            line-height: 40px;
+            color: $green_dark;
+            font-weight: 900;
+            writing-mode: vertical-rl;
+            letter-spacing:5px;
+        }
+        span{
+            padding-top:20px;
+        }
+        @include pad(){
+            display: none;
+        }
+    }
+}
+
