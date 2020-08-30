@@ -1,0 +1,96 @@
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+body{
+    font-family: "微軟正黑體";
+}
+
+.navbar{
+    .logo{
+        background: url(../img/d’Perfume@2x.png) no-repeat;
+        background-size: contain;
+        background-position: center;
+        display: block;
+        width: 130px;
+        text-indent: 101%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .nav-link{
+        color: $gray;
+        &:hover{
+            color: black;
+        }
+    }
+    .navbar-toggler{
+        outline: none;
+        border: none;
+    }
+    @include pad(){
+        .nav-link{
+            color: black;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+            outline: white 1px solid;
+        }
+    }
+    
+}
+.menu{
+    a:hover{
+        background: #DBA459;
+    }
+}
+
+
+.footer{
+    &_main{
+        background: url(../img/footer.png) no-repeat center;
+        background-size: cover;
+        height: 600px;
+        @include pad(){
+            background: url(../img/footer-pad2x.png) no-repeat center;
+            background-size: cover;
+        }
+    }
+    &_form{
+        // margin: 300px 0 100px  0;
+        h2{
+            line-height: 48px;
+        }
+    }
+    form{
+        width: 100%;
+    }
+    .email{
+        width: 60%;
+        height:60px;
+        border: solid 2px $coffee;
+        display: inline;
+        padding: 20px;
+    }
+    .subscribe{
+        width: 36%;
+        height:60px;
+        position: relative;
+        left: -10px;
+    }
+    &_else{
+        background: $coffee;
+        ul{
+            list-style:none;
+        }
+    }
+    &_logo{
+        background: url(../img/d’Perfumew@2x.png) no-repeat;
+        background-size: contain;
+        background-position: center;
+        display: block;
+        text-indent: 101%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}

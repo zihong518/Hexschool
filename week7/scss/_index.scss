@@ -1,0 +1,49 @@
+.banner{
+    background: url(../img/banner.png) no-repeat;
+    background-size:cover;
+    height: 650px;
+    button{
+        border-radius: 30px;
+        border-width: 2px;
+    }
+    h5{
+        line-height: 30px;
+    }
+    @include pad(){
+        background: url(../img/banner-pad.png) no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+}
+.index_main{
+    h3{
+        line-height: 40px;
+    }
+    button{
+        border-radius: 50px;
+        border-width: 3px;
+    }
+    img{
+        display: block;
+    }
+}
+.main_product{
+    background: #E0E0E0;
+    .appleCider{
+        position: relative;
+        filter: brightness(70%);
+    }
+    .sold_out{
+        position: absolute;
+        top: 40%;
+        left: 38%;
+    }
+}
+.bootle-recycle{
+    img{
+        
+    min-height: 520px;;
+        
+    }
+    
+}

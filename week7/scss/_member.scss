@@ -1,0 +1,8 @@
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: $coffee;
+    background-color: $coffee;
+}
+.underline{
+    border-bottom: $coffee 2px solid;
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Perfume</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/all.js"></script>
+
+    <script src="https://kit.fontawesome.com/04ee868bb6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-light justify-content-between">
+                <h1 >
+                    <a href="index.html" class="logo">D’PERFUME</a>
+                </h1>
+                <div class="d-md-none">
+                    <i class="fas fa-shopping-cart fa-lg d-inline  mr-3 text-gray"></i> 
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                </div>
+                <ul class="nav d-none d-md-flex ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">
+                            <i class="fas fa-tshirt"></i>
+                            Product
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">
+                            <i class="fas fa-user"></i>  
+                            log in
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-heart"></i>  
+                                Wishlist
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-shopping-cart"></i>  
+                            Cart(3)
+                        </a>
+                    </li>
+                </ul>
+                
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class=" navbar-nav  d-md-none">
+                    <li class="nav-item">
+                        <a class="nav-link text-white bg-gray border-bottom border-white" href="product_detail.html">
+                            Product
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white bg-gray border-bottom border-white" href="login.html">
+                            log in
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white bg-gray border-bottom border-white" href="#">
+                            Wishlist
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white bg-gray border-bottom border-white" href="#">
+                            Contat
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white bg-gray border-bottom border-white" href="#">
+                            Mypage
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    <div class="container-fluid bg-coffee d-md-block d-none menu">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ul class="list-unstyled d-flex align-items-center my-2">
+                        <li class="mr-4 text-white">CHANEL</li>
+                        <li class="mr-4 text-white">Jo Malone</li>
+                        <li class="mr-4 text-white">Curology</li>
+                        <li class="mr-4 text-white">Dior</li>
+                        <li class="mr-4 text-white">Chloe</li>
+                        <li class="mr-4 text-white">ZARA</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- header結束 -->
+<!-- 客製化開始 -->
+  <div class="container product_detail my-md-5 my-3 ">
+      <div class="row">
+          <div class="col-12 col-md-8">
+            <img src="./img/product-detail/1.png" alt="">
+            <div class="row mt-4 d-md-flex d-none">
+                <div class="col-md-6">
+                    <img src="./img/product-detail/2.png" alt="">
+                </div>
+                <div class="col-6">
+                    <img src="./img/product-detail/3.png" alt="">
+                </div>
+            </div>
+            <img src="./img/product-detail/1.png" alt="" class="mt-4 d-md-flex d-none">
+          </div>
+          <div class="col-12 col-md-4 mt-5 mt-md-0">
+              <h2 class="font-weight-bold">
+                CHANEL N°5
+              </h2>
+              <h5 class="mt-4 intro">
+                N°5，女性魅力的極致精髓。散發柔美澄透的乙醛花束香氣。經典傳奇香氛，蘊藏於極簡設計的獨特瓶身。
+              </h5>
+              <h5 class="mt-5">
+                NT$4,980
+              </h5>
+              <form action="" class="d-flex mt-4">
+                <select id="inputAccount" class="custom-select account w-50"aria-label="Example select with button addon">
+                    <option selected>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                  </select>
+                <button type="submit" class="btn btn-coffee cart w-50" data-toggle="modal" data-target="#cart">加入購物車</button>
+            </form>
+
+                <p class="love mt-1"  data-toggle="modal" data-target="#love">
+                    <i class="fas fa-heart btn text-coffee p-0 mb-1" ></i>
+                        加入我的收藏
+                </p>
+                <h5 class="mt-5 font-weight-bold">
+                    商品購買須知
+                </h5>
+                <p>
+                    產品因拍攝關係顏色可能略有差異，實際以廠商出貨為主。 商品情境照為示意用，僅商品主體不包含其他配件，請以規格內容物為主。 D’Perfume 盡可能確保所列商品備貨充足，但偶爾仍會有產品售罄的情況。如您所訂購的商品庫存不足，我們將盡快以電子郵件通知您。任何訂單變動均會在訂單總額與出貨訊息內更新。
+                </p>
+                <h5 class="mt-4 font-weight-bold">
+                    退換貨須知
+                </h5>
+                <p>
+                    依《消費者保護法》的規定，於全站購物皆享有商品到貨【七日猶豫期】（含例假日）之權益。若收到的商品有任何問題，可於猶豫期內申請退貨。               
+                 </p>
+            </div>
+        
+      </div>
+      <div class="row d-md-none justify-content-center">
+        <div class="col-12 mx-auto">
+            <img src="./img/product-detail/2.png" alt="" class="mx-auto">
+            <img src="./img/product-detail/3.png" alt="" class="mt-4 mx-auto">
+            <img src="./img/product-detail/4.png" alt="" class="my-4 mx-auto">
+          </div>
+    </div>
+  </div>
+  <!-- modal -->
+    <div class="modal fade " id="love" tabindex="-1" role="dialog" aria-labelledby="love" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content ">
+                <h5 class="modal-body text-center text-coffee font-weight-bold my-2 ">
+                    已加入收藏
+                </h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="cart" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content ">
+                <h5 class="modal-body text-center text-coffee font-weight-bold my-2 ">
+                    已加入購物車
+                </h5>
+            </div>
+        </div>
+    </div>
+<!-- 客製化結束 -->
+
+<!-- footer -->
+    <footer class="footer">
+        <div class="container-fluid footer_main d-flex align-items-end">
+            <div class="container mb-5">
+                <div class="row mb-10">
+                    <div class="col-12 col-md-6 footer_form " >
+                        <h2 class="font-weight-bold text-gray">記得<br>訂閱以獲取更多資訊！</h2>
+                        <form action="" class="d-flex mt-4">
+                            <input class="form-control email" type="email" name="" id="" placeholder="Your email adress" >
+                            <button type="submit" class="btn btn-coffee subscribe">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid footer_else a">
+            <div class="container">
+                <div class="row justify-content-between py-3 align-items-center">
+                    <div class="col-md-8 col-12 d-flex justify-content-between justify-content-md-start">
+                        <h2 class="footer_logo">Footerlogo</h2>
+                        <small class="text-white my-auto">© 2020. All Rights Reserved.</small>
+                    </div>
+                    <ul class="col-md-4 d-md-flex my-auto d-none">
+                        <li class="ml-5"><a href="#" class="text-white ">Product</a></li>
+                        <li class="ml-5"><a href="#" class="text-white ">Blog</a></li>
+                        <li class="ml-5"><a href="#" class="text-white ">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+<!-- footer 結束-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
