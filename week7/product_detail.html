@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D'Perfume</title>
     <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="js/jquery.js"></script>
     <script src="js/all.js"></script>
 
@@ -12,7 +13,7 @@
 </head>
 <body>
     <!-- header -->
-    <header>
+    <header data-aos="fade-up">
         <div class="container">
             <nav class="navbar navbar-light justify-content-between">
                 <h1 >
@@ -102,20 +103,20 @@
 <!-- header結束 -->
 <!-- 客製化開始 -->
   <div class="container product_detail my-md-5 my-3 ">
-      <div class="row">
-          <div class="col-12 col-md-8">
-            <img src="./img/product-detail/1.png" alt="">
+      <div class="row" >
+          <div class="col-12 col-md-8" >
+            <img src="./img/product-detail/1.png" alt="" data-aos="zoom-in">
             <div class="row mt-4 d-md-flex d-none">
                 <div class="col-md-6">
-                    <img src="./img/product-detail/2.png" alt="">
+                    <img src="./img/product-detail/2.png" alt="" data-aos="zoom-in">
                 </div>
                 <div class="col-6">
-                    <img src="./img/product-detail/3.png" alt="">
+                    <img src="./img/product-detail/3.png" alt="" data-aos="zoom-in">
                 </div>
             </div>
-            <img src="./img/product-detail/1.png" alt="" class="mt-4 d-md-flex d-none">
+            <img src="./img/product-detail/1.png" alt="" class="mt-4 d-md-flex d-none" data-aos="zoom-in">
           </div>
-          <div class="col-12 col-md-4 mt-5 mt-md-0">
+          <div class="col-12 col-md-4 mt-5 mt-md-0" data-aos="fade-left">
               <h2 class="font-weight-bold">
                 CHANEL N°5
               </h2>
@@ -185,7 +186,7 @@
 <!-- 客製化結束 -->
 
 <!-- footer -->
-    <footer class="footer">
+    <footer class="footer" data-aos="fade-up">
         <div class="container-fluid footer_main d-flex align-items-end">
             <div class="container mb-5">
                 <div class="row mb-10">
@@ -221,5 +222,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
